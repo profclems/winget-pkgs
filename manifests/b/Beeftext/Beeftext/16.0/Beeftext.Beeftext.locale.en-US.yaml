@@ -1,24 +1,30 @@
-# Created with WinGet Automation using Komac v1.9.1
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+# Created with komac v2.10.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: Beeftext.Beeftext
 PackageVersion: '16.0'
 PackageLocale: en-US
 Publisher: beeftext.org
-PublisherUrl: https://beeftext.org
+PublisherUrl: https://beeftext.org/
 PublisherSupportUrl: https://github.com/xmichelo/Beeftext/issues
-Author: Xavier Michelon
 PackageName: Beeftext
-PackageUrl: https://beeftext.org
+PackageUrl: https://beeftext.org/
 License: MIT
-LicenseUrl: https://github.com/xmichelo/Beeftext/blob/master/LICENSE
-Copyright: Copyright (c) 2021 Xavier Michelon
-CopyrightUrl: https://github.com/xmichelo/Beeftext/blob/master/LICENSE
+LicenseUrl: https://github.com/xmichelo/Beeftext/blob/HEAD/LICENSE
 ShortDescription: Beeftext is a text snippet management tool for Windows, inspired by TextExpander.
 Tags:
+- cpp
+- expander
+- open-source
+- productivity
+- qt
+- snippets
+- text
 - text-snippets
 - textexpander
-- tool
+- tools
+- visual-studio
+- windows
 ReleaseNotes: |-
   - Fixed crash on Windows 11 if an image is in the clipboard (issue #548).
   - Added option to disable restoration of clipboard after combo substitution (issue #550).
@@ -28,4 +34,4 @@ ReleaseNotes: |-
   - Removed error in log if process list file does not exists (issue #545).
 ReleaseNotesUrl: https://github.com/xmichelo/Beeftext/releases/tag/v16.0
 ManifestType: defaultLocale
-ManifestVersion: 1.4.0
+ManifestVersion: 1.9.0
